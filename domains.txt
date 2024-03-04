@@ -1,0 +1,3 @@
+ns.sg1-dnstt.jkimdevs.email
+ns.sg2-dnstt.jkimdevs.email
+ns.sg3-dnstt.jkimdevs.email
