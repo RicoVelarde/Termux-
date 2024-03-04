@@ -10,8 +10,8 @@ endscript() {
 trap endscript SIGINT SIGTERM
 
 # Download domain and IP files
-wget -q -O domains.txt https://raw.githubusercontent.com/JKimDevs/termux/main/domains.txt
-wget -q -O ip.txt https://raw.githubusercontent.com/JKimDevs/termux/main/ip.txt
+wget -q -O domains.txt https://raw.githubusercontent.com/RicoVelarde/Termux-/main/termux.sh
+wget -q -O ip.txt https://raw.githubusercontent.com/RicoVelarde/Termux-/main/termux.sh
 
 # Read DNS IPs and NameServers
 IFS=$'\r\n' GLOBIGNORE='*' command eval 'DNS_IPS=($(cat ip.txt))'
