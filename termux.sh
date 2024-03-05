@@ -80,10 +80,10 @@ check() {
     done
   done
 
-  echo -e "${border_color}├────────────────────────────────────────────────┤${reset_color}"
+  echo -e "${border_color}├────────────────────Server Owner─────────────────┤${reset_color}"
   echo -e "${border_color}│${padding}${header_color}Check count: ${count}${padding}${reset_color}"
   echo -e "${border_color}│${padding}Loop Delay: ${LOOP_DELAY} seconds${padding}${reset_color}"
-  echo -e "${border_color}└────────────────────────────────────────────────┘${reset_color}"
+  echo -e "${border_color}└─────────────────Rico Broqueza Agao──────────────┘${reset_color}"
 }
 
 # Countdown before starting checks
